@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+h1 {
+    text-align: center;
+    margin: 0px;
+    color: white;
+    font-size: 3rem;
+    background: linear-gradient(55deg, yellow 10%, orange 90%);
+}
+img { 
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 200px;
+    margin-top: 10px;
+}
+h3 {
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+[name] { 
+    font-family: sans-serif;
+    font-weight: bold;
+}
+[name=uno] {
+    color: brown;
+}
+[name~=parte] {
+    color: green;
+}
+[name=dos] {
+    color: rgb(194, 194, 0);
+}
+[name=cuatro] {
+    color: gray;
+}
+[name=cinco] {
+    color: orange;
+}
+[for=comentario] {
+    color: rgb(138, 138, 138);
+}
+[id=button] {
+    border-color: orange;
+    border-radius: 3px;
+    background: transparent;
+    color: gray;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+}
